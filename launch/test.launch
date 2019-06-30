@@ -1,0 +1,4 @@
+<launch>
+	<node name="cv_camera" pkg="cv_camera" type="cv_camera_node" />
+	<node name="image_converter" pkg="cvTest" type="image_converter" />
+</launch>
